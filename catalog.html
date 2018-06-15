@@ -10,7 +10,7 @@
   <body class="inner-page">
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo">
+        <a class="main-header-logo" href="index.html">
           <img src="img/nerds-logo.png" width="160" height="65" alt="Логотип студии «NЁRDS»">
         </a>
         <ul class="site-navigation">
@@ -29,16 +29,14 @@
         <section class="filter">
           <h2 class="visually-hidden">Фильтр товаров</h2>
           <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-            <p class="price">Стоимость:</p>
-            <div class="range-line">
-              <input type="range" id="pricecount" name="pricecount" min="0" max="15000">
-            </div>
-            <div class="half-width">
-            От <input type="text" min="0" max="15000" id="amount" name="amount" value="0">
-            </div>
-            <div class="half-width output-area">
-              До <input name="priceoutput" value="15000">
-            </div>
+            <fieldset>
+              <legend>Стоимость:</legend>
+              <input class="filter-input filter-input-range" type="range" name="price" id="filter-price" min="0" max="20000" value="0" aria-label="Установить диапазон стоимости">
+              <label for="filter-price-from">от</label>
+              <input class="filter-input filter-input-text" type="text" name="price" id="filter-price-from" aria-label="Укажите минимальную стоимость">
+              <label for="filter-price-to">до</label>
+              <input class="filter-input filter-input-text" type="text" name="price" id="filter-price-to" aria-label="Укажите максимальную стоимость">
+            </fieldset>
             <fieldset>
             <legend>Сетка:</legend>
             <ul>
