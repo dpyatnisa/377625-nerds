@@ -12,11 +12,6 @@ body {
 
 a {
   text-decoration: none;
-  text-transform: uppercase;
-}
-
-ul {
-  list-style: none;
 }
 
 .button {
@@ -47,27 +42,28 @@ ul {
   line-height: 30px;
   color: #000000;
   text-align: left;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 .site-navigation a,
 a.cart {
+  text-transform: uppercase;
   color: #000000;
 }
 
 a.cart {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 .site-navigation a:hover,
 a.cart:hover {
   color: #fb565a;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 .site-navigation a:focus,
 a.cart:focus {
-  color: rgba 0 0 0, 0.3;
+  color: rgba(0, 0, 0, 0.3)
 }
 
 .site-navigation a:active,
@@ -76,7 +72,7 @@ a.cart:active {
 }
 
 .slider {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 .slide h2 {
@@ -86,20 +82,20 @@ a.cart:active {
 }
 
 .slide-1 {
-  background-color: #EEEEEE;
-  background-image: url("../img/slide1.jpg");
+  background-color: #eeeeee;
+  background-image: url("../img/slide1.png");
   background-repeat: no-repeat;
 }
 
 .slide-2 {
-  background-color: #EEEEEE;
-  background-image: url("../img/slide2.jpg");
+  background-color: #eeeeee;
+  background-image: url("../img/slide2.png");
   background-repeat: no-repeat;
 }
 
 .slide-3 {
-  background-color: #EEEEEE;
-  background-image: url("../img/slide3.jpg");
+  background-color: #eeeeee;
+  background-image: url("../img/slide3.png");
   background-repeat: no-repeat;
 }
 
@@ -110,44 +106,46 @@ a.cart:active {
   text-transform: uppercase;
 }
 
-.features-list li:first-child {
+.feature-item-web {
   background-image: url("../img/illustration-1.png");
   background-repeat: no-repeat;
 }
 
-.features-list li:nth-child(2) {
+.feature-item-app {
   background-image: url("../img/illustration-2.png");
   background-repeat: no-repeat;
 }
 
-.features-list li:last-child {
+.feature-item-pres {
   background-image: url("../img/illustration-3.png");
   background-repeat: no-repeat;
 }
 
-.features-item:nth-child(2) a {
+.feature-item-app a {
+  text-transform: uppercase;
   background-color: #00ca74;
 }
 
-.features-item:nth-child(2) a:hover {
+.feature-item-app a:hover {
   background-color: #00bc6c;
 }
 
-.features-item:nth-child(2) a:focus {
+.feature-item-app a:focus {
   color: rgba(255, 255, 255, 0.3);
   background-color: #00aa62;
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
 }
 
-.features-item:last-child a {
+.feature-item-pres a {
+  text-transform: uppercase;
   background-color: #efc84a;
 }
 
-.features-item:last-child a:hover {
+.feature-item-pres a:hover {
   background-color: #eab534;
 }
 
-.features-item:last-child a:focus {
+.feature-item-pres a:focus {
   color: rgba(255, 255, 255, 0.3);
   background-color: #e5a722;
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
@@ -164,13 +162,13 @@ a.cart:active {
   font-weight: bold;
 }
 
-.nerds-percent li:first-child {
+.percent {
   font-size: 45px;
   font-weight: bold;
   line-height: 10px;
 }
 
-.nerds-percent li:last-child {
+.nerds-percent-text {
   line-height: 18px;
 }
 
@@ -205,6 +203,10 @@ a.social-button {
   background-color: white;
 }
 
+.filter-form ul {
+  list-style: none;
+}
+
 .feedback-form fieldset,
 .filter fieldset {
   border: none;
@@ -222,7 +224,7 @@ a.social-button {
   font: inherit;
   line-height: 22px;
   color: #283136;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   border: none;
 }
 
@@ -276,7 +278,7 @@ a.social-button {
 
 .filter-button {
   color: #000000;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 .filter-button:hover {
@@ -294,7 +296,7 @@ a.social-button {
   font-weight: 500;
   line-height: 55px;
   text-align: center;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 .sorting h4 {
@@ -305,6 +307,7 @@ a.social-button {
 }
 
 .sorting a {
+  text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
   color: rgba(0, 0, 0, 0.3);
@@ -325,7 +328,7 @@ a.social-button {
 }
 
 .gallery-list-item {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 .gallery-list-item p {
@@ -339,7 +342,7 @@ a.social-button {
 .pagination-list .button {
   font-size: 16px;
   color: #000000;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 .pagination-list .button:hover:not(.pagination-current) {
