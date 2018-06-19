@@ -10,6 +10,10 @@ body {
   background-color: #ffffff;
 }
 
+main {
+  display: block;
+}
+
 a {
   text-decoration: none;
 }
@@ -476,6 +480,11 @@ body {
   margin: 0;
   padding: 0;
   width: 1160px;
+  list-style: none;
+}
+
+.social-button {
+  margin-right: 10px;
 }
 
 .footer-social-list {
