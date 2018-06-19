@@ -26,37 +26,39 @@
     </header>
     <main class="container">
       <h1 class="visually-hidden">Студия дизайна «NЁRDS»</h1>
-      <div class="slider">
-        <div class="slides">
-          <div class="slide-1">
-            <h2>Долго, дорого, скрупулезно.</h2>
-            <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-            <a class="button" href="find-out.html">Узнать больше</a>
+      <section class="container-slider">
+        <div class="slider">
+          <div class="slides">
+            <div class="slide-1">
+              <h2>Долго, дорого, скрупулезно.</h2>
+              <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+              <a class="button" href="find-out.html">Узнать больше</a>
+            </div>
+            <div class="slide-2">
+              <h2>Любим математику как никто другой.</h2>
+              <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+              <a class="button" href="find-out.html">Узнать больше</a>
+            </div>
+            <div class="slide-3">
+              <h2>Только ночь, только хардкор.</h2>
+              <p>Работать днем, как все? Мы против этого.Ближе к полуночи работа только начинается.</p>
+              <a class="button" href="find-out.html">Узнать больше</a>
+            </div>
           </div>
-          <div class="slide-2">
-            <h2>Любим математику как никто другой.</h2>
-            <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-            <a class="button" href="find-out.html">Узнать больше</a>
-          </div>
-          <div class="slide-3">
-            <h2>Только ночь, только хардкор.</h2>
-            <p>Работать днем, как все? Мы против этого.Ближе к полуночи работа только начинается.</p>
-            <a class="button" href="find-out.html">Узнать больше</a>
-          </div>
+          <ul class="toggles-list">
+            <li>
+              <button type="button" class="toggle" aria-label="Перейти к слайду №1 преимуществ"></button>
+            </li>
+            <li>
+              <button type="button" class="toggle" aria-label="Перейти к слайду №2 преимуществ"></button>
+            </li>
+            <li>
+              <button type="button" class="toggle" aria-label="Перейти к слайду №3 преимуществ"></button>
+            </li>
+          </ul>
         </div>
-        <ul class="toggles-list">
-          <li>
-            <button type="button" class="toggle" aria-label="Перейти к слайду №1 преимуществ"></button>
-          </li>
-          <li>
-            <button type="button" class="toggle" aria-label="Перейти к слайду №2 преимуществ"></button>
-          </li>
-          <li>
-            <button type="button" class="toggle" aria-label="Перейти к слайду №3 преимуществ"></button>
-          </li>
-        </ul>
-      </div>
-      <section class="features">
+      </section>
+      <section class="container-features">
         <h2 class="visually-hidden">Преимущества</h2>
         <ul class="features-list">
           <li class="feature-item-web">
@@ -135,17 +137,19 @@
           <img src="img/map-marker.png" width="1440" height="416" alt="Как до нас добраться"></a>
         </figure>
       </section>
-    <div class="footer-social">
+      <section class="container footer-social">
+        <div class="footer-slogan-wrap">
+          <p class="footer-social-slogan">Давайте дружить, это выгодно!</p>
+          <p class="footer-social-promo">Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+      </section>
+        <div class="footer-social-list">
       <ul>
         <li><a class="social-button" href="#">Вконтакте</a></li>
         <li><a class="social-button" href="#">Фейсбук</a></li>
         <li><a class="social-button" href="#">Инстаграм</a></li>
       </ul>
     </div>
-    <section class="discount">
-      <h4>Давайте дружить, это выгодно!</h4>
-      <p>Скидка 10% для друзей из социальных сетей.</p>
-    </section>
     </footer>
     <section class="modal modal-contacts-form">
       <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
