@@ -47,6 +47,8 @@ a {
   color: #000000;
   text-align: left;
   background-color: #eeeeee;
+  display: flex;
+  align-items: flex-start;
 }
 
 .site-navigation a,
@@ -396,11 +398,6 @@ body {
   background-color: #eeeeee;
 }
 
-.main-navigation {
-  display: flex;
-  align-items: flex-start;
-}
-
 .site-navigation {
   display: flex;
   justify-content: space-between;
@@ -448,17 +445,14 @@ body {
 }
 
 .feature-item {
-  width: 300px;
+  width: 33.333333%;
 }
 
 .working-out {
-  display: flex;
-  flex-direction: column;
   margin-bottom: 70px;
 }
 
 .working-out-wrap {
-  display: flex;
   justify-content: space-between;
   width: 1160px;
   margin-bottom: 75px;
@@ -471,12 +465,11 @@ body {
   margin: 0;
   margin-bottom: 80px;
   padding: 0;
-  width: 1160px;
   list-style: none;
 }
 
 .working-with-item {
-  width: 210pxpx;
+  width: 25%;
   height: 90px;
   padding: 20px 20px;
 }
