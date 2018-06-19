@@ -157,6 +157,10 @@ a.cart:active {
   line-height: 45px;
 }
 
+.working-out-list {
+  list-style: none;
+}
+
 .working-out h4,
 .nerds-percent h4 {
   font-weight: bold;
@@ -317,6 +321,10 @@ a.social-button {
   color: rgba(0, 0, 0, 0.6);
 }
 
+.sorting ul {
+  list-style: none;
+}
+
 .sorting a:focus,
 .sorting a:active,
 .sorting a.sorting-current {
@@ -359,4 +367,121 @@ a.social-button {
   color: #000000;
   background-color: #ffffff;
   border: solid 3px #dbdbdb;
+}
+
+/*Сеточные стили*/
+body {
+  min-width: 1440px;
+  min-height: 1925px;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+.main-navigation {
+  display: flex;
+  align-items: flex-start;
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+  width: 440px;
+  list-style: none;
+}
+
+.main-header-logo {
+  width: 160px;
+  height: 65px;
+  padding: 20px 20px;
+  margin-right: 200px;
+}
+
+.cart {
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+  width: 85px;
+}
+
+.slider-wrap {
+  margin: 0;
+  margin-bottom: 80px;
+  padding: 0;
+  background-color: #eeeeee;
+}
+
+.slides {
+  width: 1130px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 160px;
+  padding: 0;
+  list-style: none;
+}
+
+.feature-item {
+  width: 300px;
+}
+
+.working-out {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.working-out-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 1160px;
+  margin-bottom: 75px;
+}
+
+.working-with-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 80px;
+  padding: 0;
+  width: 1160px;
+  list-style: none;
+}
+
+.working-with-item {
+  width: 210pxpx;
+  height: 90px;
+  padding: 20px 20px;
+}
+
+.footer-social {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 1160px;
+}
+
+.footer-social-list {
+  margin-right: 140px;
+  padding: 20px 20px;
+  width: 260px;
+  height: 80px;
+  list-style: none;
 }
