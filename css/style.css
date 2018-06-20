@@ -106,6 +106,10 @@ a {
   background-repeat: no-repeat;
 }
 
+.toggles-list {
+  list-style: none;
+}
+
 .feature-item h3 {
   font-size: 24px;
   font-weight: bold;
@@ -169,17 +173,17 @@ a {
 }
 
 .working-out h4,
-.nerds-percent h4 {
+.nerds-percent-table caption {
   font-weight: bold;
 }
 
-.percent {
+.nerds-percent-table th {
   font-size: 45px;
   font-weight: bold;
   line-height: 10px;
 }
 
-.nerds-percent-text {
+.nerds-percent-table td {
   line-height: 18px;
 }
 
@@ -267,23 +271,23 @@ a.social-button {
   line-height: 18px;
 }
 
-.filter legend {
+.filter-form legend {
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
   text-transform: uppercase;
 }
 
-.filter label {
+.filter-form label {
   line-height: 20px;
   color: #283136;
 }
 
-.filter label:hover {
+.filter-form label:hover {
   color: #000000;
 }
 
-.filter label:disabled {
+.filter-form label:disabled {
   color: rgba(40, 49, 54, 0.3);
 }
 
@@ -349,6 +353,7 @@ a.social-button {
    text-align: center;
    color: #000000;
  }
+
  
  .catalog-item h3 {
    font-size: 16px;
@@ -487,16 +492,19 @@ body {
   list-style: none;
 }
 
-.social-button {
-  margin-right: 10px;
+p.footer-social-slogan {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 36px;
 }
 
-.footer-social-list {
-  margin-right: 140px;
-  padding: 20px 20px;
-  width: 260px;
-  height: 80px;
-  list-style: none;
+p.footer-social-promo {
+  line-height: 22px;
+  color: #444444;
+}
+
+.social-button {
+  margin-right: 10px;
 }
 
 .page-title {
@@ -617,4 +625,4 @@ body {
 
 .catalog-item-title:hover {
   color: #fb565a;
-+}
+}
