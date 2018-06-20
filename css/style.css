@@ -52,28 +52,29 @@ a {
 }
 
 .site-navigation a,
-a.cart {
+.cart a {
   text-transform: uppercase;
   color: #000000;
 }
 
-a.cart {
+.cart a {
   background-color: #eeeeee;
+  list-style: none;
 }
 
 .site-navigation a:hover,
-a.cart:hover {
+.cart a:hover {
   color: #fb565a;
   background-color: #eeeeee;
 }
 
 .site-navigation a:focus,
-a.cart:focus {
+.cart a:focus {
   color: rgba(0, 0, 0, 0.3)
 }
 
 .site-navigation a:active,
-a.cart:active {
+.cart a:active {
   text-decoration: underline;
 }
 
@@ -81,25 +82,25 @@ a.cart:active {
   background-color: #eeeeee;
 }
 
-.slide h2 {
+.slides-list h2 {
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
 }
 
-.slide-1 {
+.long {
   background-color: #eeeeee;
   background-image: url("../img/slide1.png");
   background-repeat: no-repeat;
 }
 
-.slide-2 {
+.math {
   background-color: #eeeeee;
   background-image: url("../img/slide2.png");
   background-repeat: no-repeat;
 }
 
-.slide-3 {
+.night {
   background-color: #eeeeee;
   background-image: url("../img/slide3.png");
   background-repeat: no-repeat;
@@ -112,46 +113,46 @@ a.cart:active {
   text-transform: uppercase;
 }
 
-.feature-item-web {
+.feature-web {
   background-image: url("../img/illustration-1.png");
   background-repeat: no-repeat;
 }
 
-.feature-item-app {
+.feature-app {
   background-image: url("../img/illustration-2.png");
   background-repeat: no-repeat;
 }
 
-.feature-item-pres {
+.feature-pres {
   background-image: url("../img/illustration-3.png");
   background-repeat: no-repeat;
 }
 
-.feature-item-app a {
+.feature-app a {
   text-transform: uppercase;
   background-color: #00ca74;
 }
 
-.feature-item-app a:hover {
+.feature-app a:hover {
   background-color: #00bc6c;
 }
 
-.feature-item-app a:focus {
+.feature-app a:focus {
   color: rgba(255, 255, 255, 0.3);
   background-color: #00aa62;
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
 }
 
-.feature-item-pres a {
+.feature-pres a {
   text-transform: uppercase;
   background-color: #efc84a;
 }
 
-.feature-item-pres a:hover {
+.feature-pres a:hover {
   background-color: #eab534;
 }
 
-.feature-item-pres a:focus {
+.feature-pres a:focus {
   color: rgba(255, 255, 255, 0.3);
   background-color: #e5a722;
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
