@@ -459,8 +459,8 @@ body {
 }
 
 .working-out-wrap {
+  display: flex;
   justify-content: space-between;
-  width: 1160px;
   margin-bottom: 75px;
 }
 
@@ -486,7 +486,6 @@ body {
 
 .footer-social {
   display: flex;
-  margin: 0;
   padding: 0;
   width: 1160px;
   list-style: none;
