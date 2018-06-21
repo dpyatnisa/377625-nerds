@@ -188,11 +188,17 @@ a {
 }
 
 .contacts {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.contacts-info {
   line-height: 18px;
   color: #666666;
 }
 
-.contacts h4 {
+.contacts-info h4 {
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
@@ -505,12 +511,15 @@ p.footer-social-promo {
   margin-right: 10px;
 }
 
+.page-header {
+  background-color: #eeeeee;
+}
+
 .page-title {
   margin: 0;
   margin-bottom: 60px;
   padding-top: 75px;
   padding-bottom: 115px;
-  width: 1440px;
 }
 
 .catalog-columns {
