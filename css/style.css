@@ -470,8 +470,10 @@ body {
   margin-bottom: 75px;
 }
 
-.working-with-list {
+.working-with-wrap {
   display: flex;
+
+.working-with-list {
   justify-content: space-between;
   align-items: center;
   margin: 0;
