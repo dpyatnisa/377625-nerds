@@ -860,7 +860,7 @@
    margin-top: 60px;
  }
  
- /*маска при наведении
+ /*маска при наведении*/
  
  .catalog-item {
    position: relative;
@@ -911,4 +911,4 @@
  .catalog-item-title:hover {
    color: #fb565a;
  }
-*/
+
