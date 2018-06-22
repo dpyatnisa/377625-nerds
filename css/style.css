@@ -573,7 +573,7 @@ p.footer-social-promo {
   margin-right: 0;
 }
 
-.pagination-list {
+.paginator-list {
   display: flex;
   justify-content: flex-start;
   padding: 0;
@@ -581,7 +581,7 @@ p.footer-social-promo {
   list-style: none;
 }
 
-.pagination-list .button {
+.paginator-list .button {
   margin-right: 10px;
 }
 
