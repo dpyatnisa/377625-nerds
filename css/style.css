@@ -224,12 +224,9 @@
    background-color: white;
  }
  
- .filter-form ul {
-   list-style: none;
- }
- 
- .feedback-form fieldset,
- .filter fieldset {
+ .feedback-form fieldset{
+   margin: 0;
+   padding: 0;
    border: none;
  }
  
@@ -239,14 +236,6 @@
    font: inherit;
    background-color: #ffffff;
    border: solid 2px #d7dcde;
- }
- 
- .filter input[type="text"] {
-   font: inherit;
-   line-height: 22px;
-   color: #283136;
-   background-color: #eeeeee;
-   border: none;
  }
  
  .feedback-form input[type="text"]:hover,
@@ -276,12 +265,116 @@
    font-weight: bold;
    line-height: 18px;
  }
+
+.feedback-item label {
+   font-weight: bold;
+   line-height: 18px;
+}
+
+.page-title {
+   margin: 0;
+   margin-bottom: 60px;
+   padding-top: 75px;
+   padding-bottom: 115px;
+   width: 1440px;
+   font-size: 55px;
+   font-weight: 500;
+   line-height: 55px;
+   text-align: center;
+   background-color: #eeeeee;
+}
+
+.filter-form fieldset {
+   margin: 0;
+   padding: 0;
+   border: none;
+}
  
  .filter-form legend {
    font-size: 18px;
    font-weight: bold;
    line-height: 30px;
    text-transform: uppercase;
+ }
+
+.range-filter {
+   width: 260px;a
+}
+
+.range-controls {
+   position: relative;
+   height: 41px;
+   margin-bottom: 15px;
+   padding-top: 39px;
+   padding-right: 20px;
+   padding-left: 20px;
+   background-color: #f1f1f1;
+   border-radius: 5px;
+}
+
+.range-controls .scale {
+   height: 2px;
+   background: #d7dcde;
+}
+
+.range-controls .bar {
+   width: 70%;
+   height: 2px;
+   background: #00ca74;
+}
+
+.range-controls .toggle {
+   position: absolute;
+   top: 31px;
+   left: 0;
+   width: 4px;
+   height: 4px;
+   padding: 0;
+   border: 8px solid #ffffff;
+   background-color: #ababab;
+   box-shadow: 0 2px 1px 0 #cfcfcf;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.range-controls .toggle-min {
+   left: 18px;
+}
+
+.range-controls .toggle-max {
+   left: 160px;
+}
+
+.price-controls {
+   font-size: 0;
+}
+
+.price-controls label {
+   display: inline-block;
+   width: 50%;
+   font-size: 16px;
+   text-transform: uppercase;
+}
+
+.price-controls input {
+   width: 60px;
+   padding: 8px 10px;
+   margin-left: 10px;
+   font-family: Roboto, Arial, sans-serif;
+   font-size: 16px;
+   text-align: center;
+   color: #283136;
+   border: none;
+   border-radius: 5px;
+   background: #f1f1f1;
+}
+
+.max-price {
+   text-align: right;
+}
+
+.filter-form ul {
+   list-style: none;
  }
  
  .filter-form label {
@@ -572,6 +665,9 @@
    margin-bottom: 35px;
    margin-right: 40px;
    padding-top: 40px;
+   background: rgba(234, 255, 45, 0.2);
+   box-shadow: inset 0 0 0 2px rgb(234, 255, 45);
+   height: 616px;
  }
  
  .catalog-item:nth-child(2n) {
