@@ -34,11 +34,19 @@
           <form class="filter-form" method="get" action="https://echo.htmlacademy.ru">
             <fieldset>
               <legend>Стоимость:</legend>
-              <input class="filter-input filter-input-range" type="range" name="price" id="filter-price" min="0" max="20000" value="0" aria-label="Установить диапозон стоимости">
-              <label for="filter-price-from">от</label>
-              <input class="filter-input filter-input-text" type="text" name="price" id="filter-price-from" aria-label="Укажите минимальную стоимость">
-              <label for="filter-price-to">до</label>
-              <input class="filter-input filter-input-text" type="text" name="price" id="filter-price-to" aria-label="Укажите максимальную стоимость">
+              <div class="range-filter" aria-label="Установить диапазон стоимости">
+                <div class="range-controls">
+                  <div class="scale">
+                    <div class="bar"></div>
+                  </div>
+                  <div class="toggle toggle-min"></div>
+                  <div class="toggle toggle-max"></div>
+                </div>
+                <div class="price-controls">
+                  <label class="min-price">от <input name="min-price" type="text" value="0" aria-label="Укажите минимальную стоимость"></label>
+                  <label class="max-price">до <input name="max-price" type="text" value="15000" aria-label="Укажите максимальную стоимость"></label>
+                </div>
+              </div>
             </fieldset>
             <fieldset>
               <legend>Сетка:</legend>
