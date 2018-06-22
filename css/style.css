@@ -52,29 +52,33 @@ a {
 }
 
 .site-navigation a,
-.cart a {
+a.cart {
   text-transform: uppercase;
   color: #000000;
 }
 
-.cart a {
+a.cart {
+  position: relative;
+  margin: 0;
+  margin-left: auto;
+  padding-left: 50px;
+  max-width: 85px;
   background-color: #eeeeee;
-  list-style: none;
 }
 
 .site-navigation a:hover,
-.cart a:hover {
+a.cart :hover {
   color: #fb565a;
   background-color: #eeeeee;
 }
 
 .site-navigation a:focus,
-.cart a:focus {
+a.cart :focus {
   color: rgba(0, 0, 0, 0.3)
 }
 
 .site-navigation a:active,
-.cart a:active {
+a.cart :active {
   text-decoration: underline;
 }
 
