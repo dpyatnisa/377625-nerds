@@ -52,33 +52,29 @@
  }
  
  .site-navigation a,
-a.cart {
+ .cart a {
    text-transform: uppercase;
    color: #000000;
  }
  
-a.cart {
-  position: relative;
-  margin: 0;
-  margin-left: auto;
-  padding-left: 50px;
-  max-width: 85px;
-  background-color: #eeeeee;
+ .cart a {
+   background-color: #eeeeee;
+   list-style: none;
  }
  
  .site-navigation a:hover,
-a.cart :hover {
+ .cart a:hover {
    color: #fb565a;
    background-color: #eeeeee;
  }
  
  .site-navigation a:focus,
-a.cart :focus {
+ .cart a:focus {
    color: rgba(0, 0, 0, 0.3)
  }
  
  .site-navigation a:active,
-a.cart :active {
+ .cart a:active {
    text-decoration: underline;
  }
  
@@ -474,10 +470,8 @@ a.cart :active {
    margin-bottom: 75px;
  }
  
- .working-with-wrap {
-   display: flex;
- 
  .working-with-list {
+   display: flex;
    justify-content: space-between;
    align-items: center;
    margin: 0;
