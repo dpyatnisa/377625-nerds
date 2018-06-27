@@ -1208,7 +1208,7 @@ a.arrow:active polyline {
 .catalog-item::before {
   content: "";
   display: block;
-  top: -40px;
+  top: 0;
   left: 0;
   right: 0;
   height: 40px;
@@ -1220,6 +1220,7 @@ a.arrow:active polyline {
 
 .catalog-item:hover::before {
   display: block;
+  height: 40px;
   background-image: url("../img/browser-hover.png");
   background-position: 0 0;
   background-repeat: no-repeat;
