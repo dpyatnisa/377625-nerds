@@ -1215,7 +1215,7 @@ a.arrow:active polyline {
   background-image: url("../img/browser.png");
   background-position: 0 0;
   background-repeat: no-repeat;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  /*box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);*/
 }
 
 .catalog-item:hover::before {
@@ -1224,9 +1224,9 @@ a.arrow:active polyline {
   background-repeat: no-repeat;
 }
 
-.catalog-item:hover img {
+/*.catalog-item:hover img {
   box-shadow: 0 6px 15px rgba(0, 1, 1, 0.25);
-}
+}*/
 
 .catalog-item-price {
   display: flex;
