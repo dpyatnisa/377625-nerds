@@ -598,18 +598,17 @@ a.working-out-header-logo {
 }
 
 .footer-contacts {
-  /*position: absolute;
+  position: absolute;
   top: 55px;
   left: 140px;
   margin: 0;
-  padding: 47px 50px;*/
-  width: 319px;
-  height: 308px;
+  padding: 47px 50px;
   background-color: #ffffff;
 }
 
 .footer-contacts p {
-  margin: 55px 50px 40px;
+  margin: 0;
+  margin-bottom: 40px;
   padding: 0;
   line-height: 18px;
   color: #666666;
@@ -622,8 +621,7 @@ a.working-out-header-logo {
 }
 
 span.title {
-  margin-top: 55px;
-  margin-bottom: 6px;
+  margin-bottom: 24px;
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
@@ -640,7 +638,6 @@ span.address {
   justify-content: center;
   margin: 0;
   padding: 0;
-  margin-bottom: 50px;
   width: 219px;
   height:  50px;
 }
