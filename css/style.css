@@ -585,12 +585,26 @@ a.working-out-header-logo {
   padding: 0;
 }
 
-.footer-contacts {
+.map-img {
+  display: block;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+}
+
+.footer-contacts {
+  /*position: absolute;
   top: 55px;
   left: 140px;
   margin: 0;
-  padding: 47px 50px;
+  padding: 47px 50px;*/
+  width: 319px;
+  height: 308px;
   background-color: #ffffff;
 }
 
