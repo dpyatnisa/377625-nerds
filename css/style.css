@@ -593,8 +593,8 @@ a.working-out-header-logo {
   transform: translate(-50%, -50%);
   z-index: -1;
   width: 100%;
-  height: auto;
-  /*max-height: 416px;*/
+  /*height: auto;*/
+  max-height: 416px;
 }
 
 .footer-contacts {
