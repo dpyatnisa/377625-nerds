@@ -599,8 +599,8 @@ a.working-out-header-logo {
 
 .footer-contacts {
   position: absolute;
-  top: 55px;
-  left: 140px;
+  /*top: 55px;
+  left: 140px;*/
   margin: 0;
   padding: 47px 50px;
   background-color: #ffffff;
