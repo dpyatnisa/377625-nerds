@@ -583,6 +583,7 @@ a.working-out-header-logo {
   margin: 0;
   margin-bottom: 60px;
   padding: 0;
+  background-image: url("../img/map-with-marker.png");
 }
 
 .footer-contacts {
@@ -637,7 +638,6 @@ span.address {
   left: 680px;
   width: 250px;
   height: 190px;
-  background-image: url("../img/map-marker.png");
   background-position: 0 0;
   background-repeat: no-repeat;
 }
