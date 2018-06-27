@@ -598,11 +598,11 @@ a.working-out-header-logo {
 }
 
 .footer-contacts {
-  /*top: 55px;
+  /*position: absolute;
+  top: 55px;
   left: 140px;
   margin: 0;
   padding: 47px 50px;*/
-  position: absolute;
   width: 319px;
   height: 308px;
   background-color: #ffffff;
