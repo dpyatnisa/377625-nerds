@@ -1219,6 +1219,7 @@ a.arrow:active polyline {
 }
 
 .catalog-item:hover::before {
+  display: block;
   background-image: url("../img/browser-hover.png");
   background-position: 0 0;
   background-repeat: no-repeat;
