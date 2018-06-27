@@ -1208,7 +1208,7 @@ a.arrow:active polyline {
 .catalog-item::before {
   content: "";
   display: block;
-  top: 0;
+  top: -40px;
   left: 0;
   right: 0;
   height: 40px;
