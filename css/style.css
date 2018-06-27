@@ -609,8 +609,7 @@ a.working-out-header-logo {
 }
 
 .footer-contacts p {
-  margin: 0;
-  margin-bottom: 40px;
+  margin: 55px 50px 40px;
   padding: 0;
   line-height: 18px;
   color: #666666;
@@ -640,6 +639,7 @@ span.address {
   justify-content: center;
   margin: 0;
   padding: 0;
+  padding-bottom: 50px;
   width: 219px;
   height:  50px;
 }
