@@ -630,7 +630,7 @@ span.address {
   height:  50px;
 }
 
-.footer-contacts::after {
+/*.footer-contacts::after {
   content: "";
   position: absolute;
   top: 35px;
@@ -640,7 +640,7 @@ span.address {
   background-image: url("../img/map-marker.png");
   background-position: 0 0;
   background-repeat: no-repeat;
-}
+}*/
 
 .footer-social {
   display: flex;
