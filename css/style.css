@@ -1191,7 +1191,7 @@ a.arrow:active polyline {
   width: 360px;
   margin-bottom: 26px;
   margin-right: 40px;
-  padding-top: 40px;
+  padding-top: 0;
 }
 
 .catalog-item:nth-child(2n) {
