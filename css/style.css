@@ -585,7 +585,7 @@ a.working-out-header-logo {
   padding: 0;
 }
 
-.map-img {
+/*.map-img {
   display: block;
   position: absolute;
   top: 50%;
@@ -595,12 +595,10 @@ a.working-out-header-logo {
   width: 100%;
   height: auto;
   max-height: 416px;
-}
+}*/
 
 .footer-contacts {
   position: absolute;
-  /*top: 55px;
-  left: 140px;*/
   margin: 0;
   padding: 47px 50px;
   background-color: #ffffff;
