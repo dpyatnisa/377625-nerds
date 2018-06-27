@@ -583,20 +583,6 @@ a.working-out-header-logo {
   margin: 0;
   margin-bottom: 60px;
   padding: 0;
-  min-width: 800px;
-  overflow: hidden;
-}
-
-.map-img {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-  width: 100%;
-  height: auto;
-  min-height: 100%;
 }
 
 .footer-contacts {
@@ -644,7 +630,7 @@ span.address {
   height:  50px;
 }
 
-/*.footer-contacts::after {
+.footer-contacts::after {
   content: "";
   position: absolute;
   top: 35px;
@@ -654,7 +640,7 @@ span.address {
   background-image: url("../img/map-marker.png");
   background-position: 0 0;
   background-repeat: no-repeat;
-}*/
+}
 
 .footer-social {
   display: flex;
