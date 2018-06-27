@@ -1222,7 +1222,7 @@ a.arrow:active polyline {
   background-image: url("../img/browser-hover.png");
   background-position: 0 0;
   background-repeat: no-repeat;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 6px 15px rgba(0, 1, 1, 0.25);
 }
 
 .catalog-item:hover img {
