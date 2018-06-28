@@ -1012,19 +1012,24 @@ fieldset.filter-grid {
 }
 
 .filter-input-radio + label::before {
-  content: "";
+  background-image: url("../img/checkbox-off.svg");
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  /*content: "";
   position: absolute;
   left: -35px;
   top: -3px;
   width: 19px;
   height: 19px;
   border: 4px solid #4d4d4d;
-  opacity: 0.4;
-  border-radius: 50%;
+  border-radius: 50%;*/
 }
 
 .filter-input-radio:checked + label::after {
-  content: "";
+  background-image: url("../img/checkbox-on.svg");
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  /*content: "";
   position: absolute;
   left: -27px;
   top: 5px;
@@ -1032,7 +1037,7 @@ fieldset.filter-grid {
   height: 10px;
   background-color: #4d4d4d;
   opacity: 0.4;
-  border-radius: 50%;
+  border-radius: 50%;*/
 }
 
 .filter-input-radio + label:hover::before,
