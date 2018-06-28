@@ -1360,9 +1360,10 @@ a.arrow:active polyline {
 }
 
 .button.pagination-current{
-  color: #000000;
-  background-color: #ffffff;
-  border: solid 3px #dbdbdb;
+  vertical-align: middle;
+	padding: 12px 18px 13px 17px;
+	border: 3px solid #dbdbdb;
+	background: #ffffff;
 }
 
 .inner-page .main-footer {
