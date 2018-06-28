@@ -853,9 +853,14 @@ p.feedback-item {
   padding-top: 77px;
 =======
   margin-bottom: 50px;
+<<<<<<< HEAD
   padding-top: 45px;
 >>>>>>> b95b54ec37d2dae6c58da77e53e0b3cef7397d2f
   padding-bottom: 108px;
+=======
+  padding-top: 30px;
+  padding-bottom: 100px;
+>>>>>>> 1ba39b171bf1bb952012ff1d6aab3d71cbae647b
   font-size: 55px;
   font-weight: 500;
   line-height: 55px;
