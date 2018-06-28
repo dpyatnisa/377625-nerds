@@ -692,14 +692,18 @@ span.address {
   border-radius: 50%;
 }
 
-.social-button:hover {
+.social-button:hover,
+.social-button:focus {
   background-color: #e74246;
 }
 
-.social-button:focus,
 .social-button:active {
   background-color: #d7373b;
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+}
+
+.social-button:active path {
+	opacity: 0.3;
 }
 
 .social-slogan-wrap {
