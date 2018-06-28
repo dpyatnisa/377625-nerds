@@ -617,14 +617,14 @@ a.working-out-header-logo {
 
 .footer-contacts {
   position: absolute;
-  margin: 0;
-  padding: 80px 50px;
+  margin: 55px 0;
+  padding: 47px 50px;
   background-color: #ffffff;
 }
 
 .footer-contacts p {
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
   padding: 0;
   line-height: 18px;
   color: #666666;
