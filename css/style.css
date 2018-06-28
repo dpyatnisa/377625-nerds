@@ -1061,7 +1061,10 @@ fieldset.filter-grid {
 }
 
 .filter-input-checkbox + label::before {
-  content: "";
+  background-image: url("../img/checkbox-off.svg");
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  /*content: "";
   position: absolute;
   left: -35px;
   top: 0;
@@ -1069,11 +1072,14 @@ fieldset.filter-grid {
   height: 20px;
   border: 2px solid #4d4d4d;
   opacity: 0.4;
-  border-radius: 3px;
+  border-radius: 3px;*/
 }
 
 .filter-input-checkbox:checked + label::after {
-  content: "";
+  background-image: url("../img/checkbox-on.svg");
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  /*content: "";
   position: absolute;
   left: -37px;
   top: -1px;
@@ -1083,7 +1089,7 @@ fieldset.filter-grid {
   opacity: 0.4;
   border-top-style: none;
   border-right-style: none;
-  transform: rotate(-45deg);
+  transform: rotate(-45deg);*/
 }
 
 .filter-input-checkbox + label:hover::before,
