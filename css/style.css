@@ -123,10 +123,13 @@ img {
   list-style: none;
 }
 
+.site-navigation li {
+  padding: 20px 5px;
+}  
+
 .site-navigation a,
 a.cart {
   display: block;
-  padding: 20px 5px;
   color: #000000;
 }
 
