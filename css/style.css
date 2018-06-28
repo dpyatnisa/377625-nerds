@@ -141,7 +141,7 @@ a.cart {
   position: relative;
 }
 
-.site-navigation a.current::after {
+/*.site-navigation a.current::after {
   content: "";
   position: absolute;
   bottom: 15px;
@@ -149,6 +149,12 @@ a.cart {
   width: 74px;
   height: 2px;
   background-color: #fb565a;
+}*/
+
+.site-navigation a.current {
+	border-bottom: 2px solid red;
+    padding-bottom: 3px;
+    padding-top: 5px;
 }
 
 a.cart {
