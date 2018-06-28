@@ -153,8 +153,6 @@ a.cart {
 
 .site-navigation a.current {
 	border-bottom: 2px solid red;
-    padding-bottom: 3px;
-    padding-top: 5px;
 }
 
 a.cart {
