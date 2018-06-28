@@ -1046,7 +1046,7 @@ fieldset.filter-grid {
 }
 
 .filter-input-checkbox:checked + label::before {
-	content: url(../img/checkbox-on.png);
+	content: url(../img/checkbox-on.svg);
 	position: absolute;
 	top: -4px;
 	left: -35px;
