@@ -84,7 +84,7 @@ img {
   display: block;
   padding: 0;
   margin:  0;
-  padding-bottom: 20px;
+  padding-top: 10px;
   margin-right: 200px;
   width: 160px;
   height: 65px;
@@ -117,7 +117,8 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0;
-  padding: 25px 0;
+  padding:  0;
+  padding-top: 25px;
   min-width: 440px;
   list-style: none;
 }
@@ -129,6 +130,10 @@ a.cart {
   color: #000000;
 }
 
+a.cart {
+  padding-bottom: 0;
+}
+
 .site-navigation a {
   position: relative;
 }
@@ -137,7 +142,7 @@ a.cart {
   content: "";
   position: absolute;
   bottom: 15px;
-  left: 8px;
+  left: 6px;
   width: 74px;
   height: 2px;
   background-color: #fb565a;
@@ -147,7 +152,8 @@ a.cart {
   position: relative;
   margin: 0;
   margin-left: auto;
-  padding-left: 50px;
+  padding-top: 25px;
+  padding-left: 40px;
   max-width: 85px;
   background-color: #eeeeee;
 }
@@ -155,8 +161,8 @@ a.cart {
 a.cart::before {
   content: "";
   position: absolute;
-  top: 26px;
-  left: 10px;
+  top: 32px;
+  left: 5px;
   width: 16px;
   height: 16px;
   background-image: url("../img/cart-icon.svg");
@@ -196,14 +202,14 @@ a.cart:active {
 }
 
 .features-item {
-  padding: 43px 0 80px 0px;
+  padding: 69px 0 80px 0px;
   display: none;
 }
 
 .features-item h3 {
   max-width: 600px;
   margin: 0;
-  margin-bottom: 27px;
+  margin-bottom: 25px;
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
@@ -272,7 +278,7 @@ a.cart:active {
   background-color: #eeeeee;
   background-image: url("../img/slide-1.png");
   background-repeat: no-repeat;
-  background-position: 93% -19px;
+  background-position: 93% 7px;
 }
 
 .features-item:nth-child(2) {
@@ -740,7 +746,7 @@ span.address {
 
 .feedback-form legend {
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   font-size: 45px;
   font-weight: 500;
   line-height: 45px;
@@ -750,6 +756,7 @@ span.address {
   display: flex;
   justify-content: space-between;
   margin: 0;
+  margin-bottom: 34px;
   padding: 0;
   width: 760px;
 }
