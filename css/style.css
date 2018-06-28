@@ -387,7 +387,6 @@ a.cart:active {
   flex-direction: column;
   justify-content: flex-start;
   max-width: 1160px;
-  /*padding-bottom: 100px;*/
 }
 
 .article-working-out-wrap {
@@ -588,6 +587,7 @@ a.working-out-header-logo {
 }
 
 .map-img {
+  padding-top: 80px;
   display: block;
   position: absolute;
   top: 50%;
