@@ -571,12 +571,12 @@ a.working-out-header-logo {
   opacity: 0.2;
 }
 
-.working-out-partners-logo:hover a {
+.working-out-partners-logo:hover img {
   opacity: 1;
 }
 
-.working-out-partners-logo:focus a,
-.working-out-partners-logo:active a {
+.working-out-partners-logo:focus img,
+.working-out-partners-logo:active img {
   opacity: 0.1;
 }
 
