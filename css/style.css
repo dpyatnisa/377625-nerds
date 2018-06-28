@@ -618,7 +618,7 @@ a.working-out-header-logo {
 .footer-contacts {
   position: absolute;
   margin: 0;
-  padding: 47px 50px;
+  padding: 80px 50px;
   background-color: #ffffff;
 }
 
@@ -659,6 +659,7 @@ span.address {
 }
 
 .footer-social {
+  padding-top: 40px;
   display: flex;
   justify-content: flex-start;
 }
