@@ -847,9 +847,9 @@ p.feedback-item {
 
 .page-title {
   margin: 0;
-  /*margin-bottom: 50px;*/
-  padding-top: 40px;
-  padding-bottom: 118px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 90px;
   font-size: 55px;
   font-weight: 500;
   line-height: 55px;
