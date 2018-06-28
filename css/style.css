@@ -180,7 +180,7 @@ a.cart:hover {
 .site-navigation a:active,
 a.cart:focus,
 a.cart:active {
-  color: rgba 0 0 0, 0.3;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .features {
@@ -518,7 +518,7 @@ a.working-out-header-logo {
   position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
@@ -1155,6 +1155,10 @@ fieldset.filter-grid {
   font-size: 14px;
   line-height: 18px;
   color: rgba(0, 0, 0, 0.3);
+}
+
+a.arrow-up polygon {
+  fill: rgba(166, 166, 166, 0.2);
 }
 
 a.arrow-down polyline {
