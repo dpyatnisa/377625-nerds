@@ -551,7 +551,7 @@ a.working-out-header-logo {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.working-out-partners-logo:not(:nth-of-type(4))::after {
+.working-out-partners-logos:not(:nth-of-type(4))::after {
   content: "";
   position: absolute;
   right: -20px;
@@ -568,12 +568,12 @@ a.working-out-header-logo {
   opacity: 0.2;
 }
 
-.working-out-partners-logo:hover img {
+.working-out-partners-logos:hover img {
   opacity: 1;
 }
 
-.working-out-partners-logo:focus img,
-.working-out-partners-logo:active img {
+.working-out-partners-logos:focus img,
+.working-out-partners-logos:active img {
   opacity: 0.1;
 }
 
