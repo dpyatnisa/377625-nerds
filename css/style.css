@@ -387,6 +387,7 @@ a.cart:active {
   flex-direction: column;
   justify-content: flex-start;
   max-width: 1160px;
+  padding-bottom: 40px;
 }
 
 .article-working-out-wrap {
