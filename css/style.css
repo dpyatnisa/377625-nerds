@@ -571,12 +571,12 @@ a.working-out-header-logo {
   opacity: 0.2;
 }
 
-.working-out-partners-logo:hover img {
+.working-out-partners-logo:hover a {
   opacity: 1;
 }
 
-.working-out-partners-logo:focus img,
-.working-out-partners-logo:active img {
+.working-out-partners-logo:focus a,
+.working-out-partners-logo:active a {
   opacity: 0.1;
 }
 
@@ -586,27 +586,6 @@ a.working-out-header-logo {
   padding:  0;
   padding-bottom:  120px;
 }
-
-/*.map {
-  position: relative;
-  margin: 0;
-  margin-bottom: 60px;
-  padding: 40px 0;
-  min-width: 800px;
-}
-
-.map-img {
-  padding-top: 80px;
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-  width: 100%;
-  height: auto;
-  min-height: 100%;
-}*/
 
 .map {
   height: 416px;
