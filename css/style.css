@@ -582,8 +582,8 @@ a.working-out-header-logo {
   position: relative;
   margin: 0;
   margin-bottom: 60px;
-  padding: 0;
-  padding-top: 60px;
+  padding: 40px 0;
+  min-width: 800px;
 }
 
 .map-img {
@@ -595,6 +595,7 @@ a.working-out-header-logo {
   z-index: -1;
   width: 100%;
   height: auto;
+  min-height: 100%;
 }
 
 .footer-contacts {
