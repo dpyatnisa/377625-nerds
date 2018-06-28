@@ -568,12 +568,12 @@ a.working-out-header-logo {
   opacity: 0.2;
 }
 
-.working-out-partners-logos:hover img {
+.working-out-partners-logo:hover img {
   opacity: 1;
 }
 
-.working-out-partners-logos:focus img,
-.working-out-partners-logos:active img {
+.working-out-partners-logo:focus img,
+.working-out-partners-logo:active img {
   opacity: 0.1;
 }
 
