@@ -848,8 +848,13 @@ p.feedback-item {
 
 .page-title {
   margin: 0;
+<<<<<<< HEAD
   /*margin-bottom: 50px;*/
   padding-top: 77px;
+=======
+  margin-bottom: 50px;
+  padding-top: 45px;
+>>>>>>> b95b54ec37d2dae6c58da77e53e0b3cef7397d2f
   padding-bottom: 108px;
   font-size: 55px;
   font-weight: 500;
