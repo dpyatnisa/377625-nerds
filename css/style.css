@@ -644,7 +644,7 @@ a.working-out-header-logo {
 }
 
 span.title {
-  margin-bottom: 24px;
+  /*margin-bottom: 24px;*/
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
