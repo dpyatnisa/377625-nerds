@@ -594,11 +594,6 @@ a.working-out-header-logo {
 .map {
   height: 416px;
   width: 100%;
-  display: flex;
-  position: relative;
-}
-
-.map-img {
   display: block;
   position: absolute;
   top: 50%;
@@ -606,6 +601,15 @@ a.working-out-header-logo {
   transform: translate(-50%, -50%);
   z-index: 0;
 }
+
+/*.map-img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}*/
 
 .footer-contacts {
   position: absolute;
