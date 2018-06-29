@@ -67,7 +67,7 @@ img {
 }
 
 .button:focus,
-.button:hover {
+.button:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #d7373b;
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
@@ -1343,7 +1343,7 @@ a.arrow:active polyline {
 }
 
 .pagination-list .button:focus,
-.pagination-list .button:hover {
+.pagination-list .button:active {
   color: rgba(0, 0, 0, 0.3);
   background-color: #d5d5d5;
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
