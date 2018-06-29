@@ -575,7 +575,7 @@ a.working-out-header-logo {
   opacity: 0.2;
 }
 
-.working-out-partners-logo:hover img {
+.partners-link:hover .partners-img {
   opacity: 1;
 }
 
