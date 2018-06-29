@@ -575,12 +575,12 @@ a.working-out-header-logo {
   opacity: 0.2;
 }
 
-.partners-link:hover {
+.working-out-partners-logo:hover img {
   opacity: 1;
 }
 
-.partners-link:focus img,
-.partners-link:active img {
+.working-out-partners-logo:focus img,
+.working-out-partners-logo:active img {
   opacity: 0.1;
 }
 
