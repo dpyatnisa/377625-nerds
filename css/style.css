@@ -596,6 +596,7 @@ a.working-out-header-logo {
   width: 100%;
   display: block;
   position: absolute;
+  background-image: url(../img/map-with-marker.png);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
