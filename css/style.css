@@ -569,7 +569,7 @@ a.working-out-header-logo {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.working-out-partners-logo img {
+.partners-img {
   margin: 0;
   padding: 0;
   opacity: 0.2;
@@ -579,8 +579,8 @@ a.working-out-header-logo {
   opacity: 1;
 }
 
-.working-out-partners-logo:focus img,
-.working-out-partners-logo:active img {
+.partners-link:focus img,
+.partners-link:active img {
   opacity: 0.1;
 }
 
