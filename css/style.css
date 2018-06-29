@@ -594,6 +594,7 @@ a.working-out-header-logo {
 .map {
   height: 416px;
   width: 100%;
+<<<<<<< HEAD
   display: block;
   position: absolute;
   background-image: url(../img/map-with-marker.png);
@@ -601,16 +602,20 @@ a.working-out-header-logo {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 0;
+=======
+  display: flex;
+  position: relative;
+>>>>>>> parent of a364ef3... Update style.css
 }
 
-/*.map-img {
+.map-img {
   display: block;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 0;
-}*/
+}
 
 .footer-contacts {
   position: absolute;
