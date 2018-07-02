@@ -1515,6 +1515,10 @@ a.arrow:active polyline {
   display: none;
 }
 
+.catalog-item-description {
+  width: 360px;
+}
+
 .catalog-item-price a {
   display: block;
   margin: 0;
