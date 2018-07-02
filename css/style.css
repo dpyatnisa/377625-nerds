@@ -86,7 +86,7 @@ input[type="radio"].visually-hidden {
   display: block;
   padding: 0;
   margin:  0;
-  padding-top: 5px;
+  padding-top: 45px;
   margin-right: 200px;
   width: 160px;
   height: 65px;
@@ -136,7 +136,7 @@ input[type="radio"].visually-hidden {
 }
 
 .site-navigation li {
-  padding: 20px 5px;
+  padding: 20px 20px 0px 0px;
 }  
 
 .site-navigation a,
@@ -168,7 +168,7 @@ a.cart {
   position: relative;
   margin: 0;
   margin-left: auto;
-  padding-top: 20px;
+  padding-top: 60px;
   padding-left: 40px;
   max-width: 70px;
   background-color: #eeeeee;
@@ -177,7 +177,7 @@ a.cart {
 a.cart::before {
   content: "";
   position: absolute;
-  top: 27px;
+  top: 64px;
   left: 0;
   width: 16px;
   height: 16px;
@@ -218,7 +218,7 @@ a.cart:active {
 }
 
 .features-item {
-  padding: 69px 0 80px 0px;
+  padding: 60px 0 80px 0px;
   display: none;
 }
 
@@ -240,7 +240,7 @@ a.cart:active {
 .features-controls {
   position: absolute;
   left: 50%;
-  bottom: 103px;
+  bottom: 100px;
   z-index: 100;
   width: 160px;
   height: 18px;
@@ -297,7 +297,7 @@ a.cart:active {
   background-color: #eeeeee;
   background-image: url("../img/slide-1.png");
   background-repeat: no-repeat;
-  background-position: 93% 8px;
+  background-position: 93% 1px;
 }
 
 .features-item:nth-child(2) {
@@ -551,9 +551,9 @@ a.working-out-header-logo {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0;
@@ -674,6 +674,7 @@ span.title {
   font-weight: bold;
   line-height: 30px;
   text-transform: uppercase;
+  padding-top: 10px;
 }
 
 span.address {
@@ -710,7 +711,7 @@ span.address {
 }
 
 .footer-social {
-  padding-top: 10px;
+  padding-top: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1043,7 +1044,7 @@ span.address {
               .page-title {
                 margin: 0;
                 margin-bottom: 52px;
-                padding-top: 60px;
+                padding-top: 40px;
                 padding-bottom: 110px;
                 font-size: 55px;
                 font-weight: 500;
@@ -1183,7 +1184,7 @@ span.address {
 
               .filter-features .filter-option {
                 margin:  0;
-                margin-bottom:  15px;
+                margin-bottom:  16px;
               }
 
               fieldset.filter-grid {
@@ -1448,7 +1449,7 @@ span.address {
             .catalog-item {
               position: relative;
               width: 360px;
-              margin-bottom: 32px;
+              margin-bottom: 28px;
               margin-right: 40px;
               padding-top: 0;
             }
