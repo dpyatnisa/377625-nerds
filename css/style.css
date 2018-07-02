@@ -1447,9 +1447,6 @@ a.arrow:active polyline {
 }
 
 .catalog-item {
-  /*display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;*/
   position: relative;
   width: 360px;
   margin-bottom: 32px;
