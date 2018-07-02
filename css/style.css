@@ -260,7 +260,6 @@ a.cart:active {
   width: 4px;
   height: 4px;
   transform: translate(-50%, -50%);
-  background-color: inherit;
   border: 2px solid #c1c1c1;
   border-radius: 50%;
 }
@@ -388,11 +387,11 @@ a.cart:active {
   background-color: #00ca74;
 }
 
+.services-item:nth-child(2) a:focus,
 .services-item:nth-child(2) a:hover {
   background-color: #00bc6c;
 }
 
-.services-item:nth-child(2) a:focus,
 .services-item:nth-child(2) a:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #00aa62;
@@ -404,11 +403,11 @@ a.cart:active {
   background-color: #efc84a;
 }
 
+.services-item:nth-child(3) a:focus,
 .services-item:nth-child(3) a:hover {
   background-color: #eab534;
 }
 
-.services-item:nth-child(3) a:focus,
 .services-item:nth-child(3) a:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #e5a722;
@@ -609,11 +608,11 @@ a.working-out-header-logo {
   opacity: 0.2;
 }
 
+.working-out-partners-logo:focus img,
 .working-out-partners-logo:hover img {
   opacity: 1;
 }
 
-.working-out-partners-logo:focus img,
 .working-out-partners-logo:active img {
   opacity: 0.1;
 }
@@ -973,15 +972,15 @@ p.feedback-item {
   border: 2px solid #d7dcde;
 }
 
+.feedback-form input[type="text"]:focus,
+.feedback-form input[type="email"]:focus,
+.feedback-form textarea:focus,
 .feedback-form input[type="text"]:hover,
 .feedback-form input[type="email"]:hover,
 .feedback-form textarea:hover {
   border: 2px solid #b4b9bb;
 }
 
-.feedback-form input[type="text"]:focus,
-.feedback-form input[type="email"]:focus,
-.feedback-form textarea:focus,
 .feedback-form input[type="text"]:active,
 .feedback-form input[type="email"]:active,
 .feedback-form textarea:active {
@@ -1306,11 +1305,11 @@ fieldset.filter-features {
   width: 260px;
 }
 
+.filter-button:focus,
 .filter-button:hover {
   background-color: #dfdfdf;
 }
 
-.filter-button:focus,
 .filter-button:active {
   color: rgba(0, 0, 0, 0.3);
   background-color: #d5d5d5;
@@ -1602,11 +1601,11 @@ a.arrow:active polyline {
   padding: 15px 80px;
 }
 
+.pagination-list .button:focus,
 .pagination-list .button:hover:not(.pagination-current) {
   background-color: #dfdfdf;
 }
 
-.pagination-list .button:focus,
 .pagination-list .button:active {
   color: rgba(0, 0, 0, 0.3);
   background-color: #d5d5d5;
