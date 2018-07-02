@@ -63,11 +63,11 @@ img {
   border-radius: 3px;
 }
 
+.button:focus,
 .button:hover {
   background-color: #e74246;
 }
 
-.button:focus,
 .button:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #d7373b;
@@ -186,15 +186,15 @@ a.cart::before {
   background-position: 0 0;
 }
 
+.site-navigation a:focus,
 .site-navigation a:hover,
+a.cart:focus,
 a.cart:hover {
   color: #fb565a;
   background-color: #eeeeee;
 }
 
-.site-navigation a:focus,
 .site-navigation a:active,
-a.cart:focus,
 a.cart:active {
   color: rgba(0, 0, 0, 0.3);
 }
