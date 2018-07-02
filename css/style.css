@@ -164,10 +164,6 @@ a.cart {
   background-color: #fb565a;
 }
 
-/*.site-navigation a.current {
-	border-bottom: 2px solid red;
-}*/
-
 a.cart {
   position: relative;
   margin: 0;
@@ -675,7 +671,6 @@ a.working-out-header-logo {
 }
 
 span.title {
-  /*margin-bottom: 24px;*/
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
@@ -716,7 +711,7 @@ span.address {
 }
 
 .footer-social {
-  padding-top: 20px;
+  padding-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1452,9 +1447,9 @@ a.arrow:active polyline {
 }
 
 .catalog-item {
-  display: -webkit-box;
+  /*display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex;*/
   position: relative;
   width: 360px;
   margin-bottom: 32px;
