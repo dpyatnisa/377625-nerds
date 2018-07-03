@@ -14,6 +14,7 @@ body {
   display: block;
   margin: 0;
   padding: 0;
+  min-width: 1160px;
 }
 
 a {
