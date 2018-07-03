@@ -8,14 +8,12 @@ body {
   letter-spacing: normal;
   color: #283136;
   background-color: #ffffff;
-  min-width: 1160px;
 }
 
 .main {
   display: block;
   margin: 0;
   padding: 0;
-  min-width: 1160px;
 }
 
 a {
@@ -1417,7 +1415,7 @@ span.address {
             fill: rgba(166, 166, 166, 0.2);
           }
 
-          a.arrow-down.current polyline{
+          a.arrow-down.current polyline {
             fill: #000000;
           }
 
@@ -1580,7 +1578,7 @@ span.address {
             height: 50px;
           }
 
-          .catalog-item:hover .catalog-item-price{
+          .catalog-item:hover .catalog-item-price {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
@@ -1640,7 +1638,7 @@ span.address {
             box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
           }
 
-          .button.pagination-current{
+          .button.pagination-current {
             vertical-align: middle;
             padding: 12px 18px 13px 17px;
             border: 3px solid #dbdbdb;
