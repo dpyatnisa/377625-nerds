@@ -109,7 +109,7 @@ input[type="radio"].visually-hidden {
   -ms-flex-align: center;
   align-items: center;
   max-width: 1160px;
-  padding-top: 30px;
+  padding-top: 12px;
   font-weight: 500;
   font-style: normal;
   line-height: 30px;
@@ -621,7 +621,7 @@ a.working-out-header-logo {
   margin: 0;
   margin-top: 120px;
   padding: 0;
-  padding-bottom: 120px;
+  padding-bottom: 70px;
 }
 
 .map {
@@ -1192,7 +1192,7 @@ span.address {
               }
 
               fieldset.filter-features {
-                margin-bottom: 30px;
+                margin-bottom: 25px;
               }
 
               .filter-list li {
@@ -1440,7 +1440,7 @@ span.address {
               -ms-flex-wrap: wrap;
               flex-wrap: wrap;
               margin: 0;
-              margin-bottom: 25px;
+              margin-bottom: 28px;
               padding: 0;
               max-width: 760px;
               list-style: none;
@@ -1449,7 +1449,7 @@ span.address {
             .catalog-item {
               position: relative;
               width: 360px;
-              margin-bottom: 28px;
+              margin-bottom: 25px;
               margin-right: 40px;
               padding-top: 0;
             }
