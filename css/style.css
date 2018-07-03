@@ -14,7 +14,6 @@ body {
   display: block;
   margin: 0;
   padding: 0;
-  width: 100%;
 }
 
 a {
@@ -626,7 +625,6 @@ a.working-out-header-logo {
   margin-top: 120px;
   padding: 0;
   padding-bottom: 70px;
-  width: 100%;
 }
 
 .map {
