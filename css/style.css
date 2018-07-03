@@ -26,13 +26,13 @@ img {
 }
 
 .container a {
-  width: 1160px;
-  margin: 0 auto;
-  padding: 0 10px;
+  text-transform: uppercase;
 }
 
 .container {
-  text-transform: uppercase;
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .visually-hidden:not(:focus):not(:active),
