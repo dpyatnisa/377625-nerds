@@ -678,6 +678,7 @@ span.title {
   line-height: 30px;
   text-transform: uppercase;
   padding-top: 5px;
+  color: #000000;
 }
 
 span.address {
@@ -699,19 +700,6 @@ span.address {
   width: 219px;
   height:  50px;
 }
-
-/*.map::after {
-  content: "";
-  position: absolute;
-  top: 90px;
-  left: 820px;
-  z-index: 1;
-  width: 250px;
-  height: 190px;
-  background-image: url("../img/map-marker.png");
-  background-position: 0 0;
-  background-repeat: no-repeat;
-}*/
 
 .footer-social {
   padding-top: 0;
