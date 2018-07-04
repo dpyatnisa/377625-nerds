@@ -700,7 +700,7 @@ span.address {
   height:  50px;
 }
 
-.map::after {
+/*.map::after {
   content: "";
   position: absolute;
   top: 90px;
@@ -711,7 +711,7 @@ span.address {
   background-image: url("../img/map-marker.png");
   background-position: 0 0;
   background-repeat: no-repeat;
-}
+}*/
 
 .footer-social {
   padding-top: 0;
