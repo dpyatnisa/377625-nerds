@@ -457,9 +457,7 @@ a.cart:active {
 .working-out-slogan {
   margin: 0;
   margin-bottom: 0px;
-  padding: 0;
-  padding-top: 35px;
-  padding-bottom: 32px;
+  padding: 35px 0 32px;
   min-width: 650px;
   font-size: 45px;
   font-weight: 500;
