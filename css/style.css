@@ -6,7 +6,7 @@ body {
   font-weight: normal;
   line-height: 24px;
   letter-spacing: normal;
-  color: #283136;
+  color: #000000;
   background-color: #ffffff;
   min-width: 1180px;
 }
@@ -54,7 +54,7 @@ input[type="radio"].visually-hidden {
 
 .button {
   display: inline-block;
-  padding: 17px 54px;
+  padding: 15px 54px;
   font: inherit;
   font-weight: 500;
   line-height: 18px;
@@ -91,7 +91,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
   margin:  0;
   padding-top: 20px;
-  margin-right: 200px;
+  margin-right: 198px;
   width: 160px;
   height: 65px;
 }
@@ -133,9 +133,9 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  padding-top: 25px;
+  padding-top: 23px;
   padding-bottom: 5px;
-  min-width: 470px;
+  min-width: 467px;
   list-style: none;
 }
 
@@ -222,7 +222,7 @@ a.cart:active {
 }
 
 .features-item {
-  padding: 60px 0 80px 0px;
+  padding: 65px 0 81px 0px;
   display: none;
 }
 
@@ -642,6 +642,7 @@ a.working-out-header-logo {
   z-index: 2;
   width: 100%;
   height: 416px;
+  border: 0;
 }
 
 .map img {
@@ -662,7 +663,7 @@ a.working-out-header-logo {
 
 .footer-contacts p {
   margin: 0;
-  margin-bottom: 37px;
+  margin-bottom: 20px;
   padding: 0;
   line-height: 18px;
   color: #666666;
@@ -685,6 +686,10 @@ span.title {
 
 span.address {
   margin-bottom: 18px;
+}
+
+span.tel {
+  padding-bottom: 18px;
 }
 
 .footer-contacts .button {
@@ -946,14 +951,14 @@ p.feedback-item {
 
 .feedback-form input[type="text"],
 .feedback-form input[type="email"] {
- -webkit-box-sizing: border-box;
- box-sizing: border-box;
- width: 360px;
- padding: 11px 15px;
- padding-right: 40px;
- font: inherit;
- background-color: #ffffff;
- border: 2px solid #d7dcde;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 360px;
+  padding: 11px 15px;
+  padding-right: 40px;
+  line-height: 18px;
+  background-color: #ffffff;
+  border: 2px solid #d7dcde;
 }
 
 .feedback-form textarea {
@@ -1055,7 +1060,7 @@ p.feedback-item {
 
 .filter-form legend {
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
@@ -1124,6 +1129,7 @@ p.feedback-item {
   display: inline-block;
   width: 50%;
   font-size: 16px;
+  line-height: 22px;
   vertical-align: middle;
   text-transform: uppercase;
 }
@@ -1134,8 +1140,9 @@ p.feedback-item {
   margin-left: 8px;
   font-family: Roboto, Arial, sans-serif;
   font-size: 16px;
+  line-height: 22px;
   text-align: center;
-  color: #283136;
+  color: #000000;
   border: none;
   border-radius: 5px;
   background: #f1f1f1;
@@ -1185,7 +1192,7 @@ fieldset.filter-grid {
 }
 
 fieldset.filter-features {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .filter-list li {
@@ -1203,7 +1210,7 @@ fieldset.filter-features {
   -ms-user-select: none;
   user-select: none;
   line-height: 20px;
-  color: #283136;
+  color: #000000;
 }
 
 .filter-grid label {
@@ -1240,32 +1247,32 @@ fieldset.filter-features {
 }
 
 .filter-input-checkbox + label::before {
- content: "";
- position: absolute;
- top: -4px;
- left: -35px;
- width: 19px;
- height: 19px;
- border: 2px solid #a6a6a6;
- border-radius: 3px;
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -35px;
+  width: 19px;
+  height: 19px;
+  border: 2px solid #a6a6a6;
+  border-radius: 3px;
 }
 
 .filter-input-checkbox:checked + label::before {
- content: url("../img/checkbox-on.svg");
- position: absolute;
- top: -4px;
- left: -35px;
- border: none;
- opacity: 0.5;
+  content: url("../img/checkbox-on.svg");
+  position: absolute;
+  top: -4px;
+  left: -35px;
+  border: none;
+  opacity: 0.5;
 }
 
 .filter-input-checkbox:checked + label:hover::after,
 .filter-input-checkbox:checked + label:focus::after {
- content: url("../img/checkbox-on.svg");
- position: absolute;
- top: -4px;
- left: -35px;
- border: none;
+  content: url("../img/checkbox-on.svg");
+  position: absolute;
+  top: -4px;
+  left: -35px;
+  border: none;
 }
 
 .filter-input-radio + label:hover::before {
@@ -1290,28 +1297,28 @@ fieldset.filter-features {
 
 .filter-input-checkbox + label:hover::before,
 .filter-input-checkbox + label:focus::before {
- border: 2px solid #4d4d4d;
+  border: 2px solid #4d4d4d;
 }
 
 .filter-input-checkbox:checked + label:hover::before,
 .filter-input-checkbox:checked + label:focus::before {
- content: url("../img/checkbox-on.svg");
- position: absolute;
- top: -4px;
- left: -35px;
- border: none;
+  content: url("../img/checkbox-on.svg");
+  position: absolute;
+  top: -4px;
+  left: -35px;
+  border: none;
 }
 
 .filter-input-checkbox:disabled + label::before {
- content: url("../img/checkbox-disabled.png");
- position: absolute;
- top: -4px;
- left: -35px;
- border: none;
+  content: url("../img/checkbox-disabled.png");
+  position: absolute;
+  top: -4px;
+  left: -35px;
+  border: none;
 }
 
 .filter-input-checkbox:disabled + label::before {
- border: 2px solid #ededed;
+  border: 2px solid #ededed;
 }
 
 .filter-button {
@@ -1454,7 +1461,7 @@ a.arrow:active polyline {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0;
-  margin-bottom: 28px;
+  margin-bottom: 30px;
   padding: 0;
   max-width: 760px;
   list-style: none;
@@ -1594,7 +1601,7 @@ a.arrow:active polyline {
 }
 
 .pagination-list li {
-  margin-right: 11px;
+  margin-right: 13px;
 }
 
 .pagination-list li:last-child {
@@ -1614,7 +1621,7 @@ a.arrow:active polyline {
 }
 
 .pagination-list .button-next {
-  padding: 15px 80px;
+  padding: 15px 79px;
 }
 
 .pagination-list .button:focus,
