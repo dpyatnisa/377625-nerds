@@ -454,13 +454,25 @@ a.cart:active {
 
 .working-out-slogan {
   margin: 0;
-  margin-bottom: 33px;
+  margin-bottom: 0px;
   padding: 0;
   padding-top: 35px;
   min-width: 650px;
   font-size: 45px;
   font-weight: 500;
   line-height: 45px;
+}
+
+.working-out-slogan-nowrap {
+  margin: 0;
+  margin-bottom: 33px;
+  padding: 0;
+  padding-top: 0px;
+  min-width: 650px;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 45px;
+  white-space: nowrap;
 }
 
 .working-out-lead {
