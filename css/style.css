@@ -431,6 +431,7 @@ a.cart:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: space-between;
   margin-bottom: 95px;
   max-width: 1160px;
 }
@@ -461,18 +462,6 @@ a.cart:active {
   font-size: 45px;
   font-weight: 500;
   line-height: 45px;
-}
-
-.working-out-slogan-nowrap {
-  margin: 0;
-  margin-bottom: 33px;
-  padding: 0;
-  padding-top: 0px;
-  min-width: 650px;
-  font-size: 45px;
-  font-weight: 500;
-  line-height: 45px;
-  white-space: nowrap;
 }
 
 .working-out-lead {
@@ -1081,7 +1070,7 @@ p.feedback-item {
 
 .filter-price legend {
   margin-bottom: 48px;
-  padding-top: 3px;
+  padding-top: 2px;
 }
 
 .range-filter {
@@ -1091,7 +1080,7 @@ p.feedback-item {
 .range-controls {
   position: relative;
   height: 41px;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
   padding-top: 39px;
   padding-right: 20px;
   padding-left: 20px;
