@@ -448,24 +448,25 @@ a.cart:active {
 }
 
 .working-out-wrap {
-  margin:  0;
+  margin: 0;
   margin-right: 140px;
-  padding:  0;
-  width: 780px;
+  padding: 0;
 }
 
 .working-out-slogan {
   margin: 0;
-  margin-bottom: 0px;
-  padding: 35px 0 32px;
-  min-width: 680px;
+  margin-bottom: 33px;
+  padding: 0;
+  padding-top: 35px;
+  min-width: 670px;
   font-size: 45px;
   font-weight: 500;
   line-height: 45px;
 }
 
 .working-out-lead {
-  margin: 32px 0 39px;
+  margin: 0;
+  margin-bottom: 39px;
   max-width: 650px;
 }
 
@@ -473,10 +474,6 @@ a.cart:active {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.working-out-accurasy-wrap {
-  width: 370px;
 }
 
 .working-out-services h3,
@@ -661,7 +658,7 @@ a.working-out-header-logo {
   z-index: 3;
   margin: 0;
   margin-top: 55px;
-  padding: 47px 50px;
+  padding: 46px 50px;
   background-color: #ffffff;
 }
 
