@@ -451,6 +451,7 @@ a.cart:active {
   margin:  0;
   margin-right: 140px;
   padding:  0;
+  width: 780px;
 }
 
 .working-out-slogan {
@@ -458,6 +459,7 @@ a.cart:active {
   margin-bottom: 0px;
   padding: 0;
   padding-top: 35px;
+  padding-bottom: 32px;
   min-width: 650px;
   font-size: 45px;
   font-weight: 500;
@@ -474,6 +476,10 @@ a.cart:active {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.working-out-accurasy-wrap {
+  width: 370px;
 }
 
 .working-out-services h3,
