@@ -458,15 +458,14 @@ a.cart:active {
   margin: 0;
   margin-bottom: 0px;
   padding: 35px 0 32px;
-  min-width: 650px;
+  min-width: 680px;
   font-size: 45px;
   font-weight: 500;
   line-height: 45px;
 }
 
 .working-out-lead {
-  margin: 0;
-  margin-bottom: 39px;
+  margin: 32px 0 39px;
   max-width: 650px;
 }
 
