@@ -1054,7 +1054,7 @@ p.feedback-item {
 
 .filter-form fieldset {
   margin: 0;
-  margin-bottom: 54px;
+  margin-bottom: 53px;
   padding: 0;
   border: none;
 }
@@ -1185,7 +1185,7 @@ p.feedback-item {
 
 .filter-features .filter-option {
   margin:  0;
-  margin-bottom:  16px;
+  margin-bottom: 18px;
 }
 
 fieldset.filter-grid {
@@ -1220,7 +1220,7 @@ fieldset.filter-features {
 }
 
 .filter-features label {
-  padding-top: 2px;
+  padding-top: 0;
   padding-bottom: 2px;
 }
 
